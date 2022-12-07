@@ -24,7 +24,7 @@ function Login({ router, data }) {
   );
 }
 Login.getInitialProps = async () => {
-  const data = await axios.get("http://localhost:3000/test/get", {
+  const data = await axios.get("http://localhost:3000/test/xb", {
     params: {
       ID: 12345,
     },
